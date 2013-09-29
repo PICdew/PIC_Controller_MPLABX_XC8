@@ -21,7 +21,7 @@
 when you are studying the I2C source code in /sources/pic18/plib/i2c */
 
 void main(void) {
-    unsigned char slave7bitAddr = 0x2A; //7-bit address of Slave.
+    unsigned char slave7bitAddr = 0x2A; //7-bit address of Slave.  MSB=Don't care.
     unsigned char slaveAddrWrite = (slave7bitAddr << 1); //LSB=0, Master Write request.
     signed char writeStat;
     unsigned char message[11] = {'H', 'e', 'l', 'l', 'o', ' ', 'W', 'o', 'r', 'l', 'd'};
