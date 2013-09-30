@@ -1,6 +1,5 @@
 =begin html
 
-<H3>This repository contains a simple application for the Microchip PIC18F25K22 microcontroller that 
-demonstrates how to use it as an I2C master.  The code was written using MPLAB X and the XC8 compiler.<H3>
+<H3>This repository contains some simple C code examples for Microchip microcontrollers. Each example was developed and tested with MPLAB X and the XC8 compiler.<H3>
 
 =end html
