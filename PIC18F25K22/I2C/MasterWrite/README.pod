@@ -1,0 +1,5 @@
+=begin html
+
+<H3>This example uses a PIC18F25K22 as an I2C Master to send a Hello World message to an I2C Slave.<H3>
+
+=end html
